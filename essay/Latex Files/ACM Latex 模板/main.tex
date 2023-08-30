@@ -1,0 +1,401 @@
+%%
+%% This is file `sample-sigconf.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% samples.dtx  (with options: `sigconf')
+%% 
+%% IMPORTANT NOTICE:
+%% 
+%% For the copyright see the source file.
+%% 
+%% Any modified versions of this file must be renamed
+%% with new filenames distinct from sample-sigconf.tex.
+%% 
+%% For distribution of the original source see the terms
+%% for copying and modification in the file samples.dtx.
+%% 
+%% This generated file may be distributed as long as the
+%% original source files, as listed above, are part of the
+%% same distribution. (The sources need not necessarily be
+%% in the same archive or directory.)
+%%
+%%
+%% Commands for TeXCount
+%TC:macro \cite [option:text,text]
+%TC:macro \citep [option:text,text]
+%TC:macro \citet [option:text,text]
+%TC:envir table 0 1
+%TC:envir table* 0 1
+%TC:envir tabular [ignore] word
+%TC:envir displaymath 0 word
+%TC:envir math 0 word
+%TC:envir comment 0 0
+%%
+%%
+%% The first command in your LaTeX source must be the \documentclass command.
+\documentclass[sigconf]{acmart}
+
+%%
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    Bib\TeX}}}
+
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+\setcopyright{acmcopyright}
+\copyrightyear{2018}
+\acmYear{2018}
+\acmDOI{XXXXXXX.XXXXXXX}
+
+%% These commands are for a PROCEEDINGS abstract or paper.
+\acmConference[Conference acronym 'XX]{Make sure to enter the correct
+  conference title from your rights confirmation emai}{June 03--05,
+  2018}{Woodstock, NY}
+\acmPrice{15.00}
+\acmISBN{978-1-4503-XXXX-X/18/06}
+
+
+%%
+%% Submission ID.
+%% Use this when submitting an article to a sponsored event. You'll
+%% receive a unique submission ID from the organizers
+%% of the event, and this ID should be used as the parameter to this command.
+%%\acmSubmissionID{123-A56-BU3}
+
+%%
+%% For managing citations, it is recommended to use bibliography
+%% files in BibTeX format.
+%%
+%% You can then either use BibTeX with the ACM-Reference-Format style,
+%% or BibLaTeX with the acmnumeric or acmauthoryear sytles, that include
+%% support for advanced citation of software artefact from the
+%% biblatex-software package, also separately available on CTAN.
+%%
+%% Look at the sample-*-biblatex.tex files for templates showcasing
+%% the biblatex styles.
+%%
+
+%%
+%% The majority of ACM publications use numbered citations and
+%% references.  The command \citestyle{authoryear} switches to the
+%% "author year" style.
+%%
+%% If you are preparing content for an event
+%% sponsored by ACM SIGGRAPH, you must use the "author year" style of
+%% citations and references.
+%% Uncommenting
+%% the next command will enable that style.
+%%\citestyle{acmauthoryear}
+
+
+
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+
+%%
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+\title{The Name of the Title Is Hope}
+
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+%% Of note is the shared affiliation of the first two authors, and the
+%% "authornote" and "authornotemark" commands
+%% used to denote shared contribution to the research.
+\author{Ben Trovato}
+\authornote{Both authors contributed equally to this research.}
+\email{trovato@corporation.com}
+\orcid{1234-5678-9012}
+\author{G.K.M. Tobin}
+\authornotemark[1]
+\email{webmaster@marysville-ohio.com}
+\affiliation{%
+  \institution{Institute for Clarity in Documentation}
+  \streetaddress{P.O. Box 1212}
+  \city{Dublin}
+  \state{Ohio}
+  \country{USA}
+  \postcode{43017-6221}
+}
+
+\author{Lars Th{\o}rv{\"a}ld}
+\affiliation{%
+  \institution{The Th{\o}rv{\"a}ld Group}
+  \streetaddress{1 Th{\o}rv{\"a}ld Circle}
+  \city{Hekla}
+  \country{Iceland}}
+\email{larst@affiliation.org}
+
+\author{Valerie B\'eranger}
+\affiliation{%
+  \institution{Inria Paris-Rocquencourt}
+  \city{Rocquencourt}
+  \country{France}
+}
+
+\author{Aparna Patel}
+\affiliation{%
+ \institution{Rajiv Gandhi University}
+ \streetaddress{Rono-Hills}
+ \city{Doimukh}
+ \state{Arunachal Pradesh}
+ \country{India}}
+
+\author{Huifen Chan}
+\affiliation{%
+  \institution{Tsinghua University}
+  \streetaddress{30 Shuangqing Rd}
+  \city{Haidian Qu}
+  \state{Beijing Shi}
+  \country{China}}
+
+\author{Charles Palmer}
+\affiliation{%
+  \institution{Palmer Research Laboratories}
+  \streetaddress{8600 Datapoint Drive}
+  \city{San Antonio}
+  \state{Texas}
+  \country{USA}
+  \postcode{78229}}
+\email{cpalmer@prl.com}
+
+\author{John Smith}
+\affiliation{%
+  \institution{The Th{\o}rv{\"a}ld Group}
+  \streetaddress{1 Th{\o}rv{\"a}ld Circle}
+  \city{Hekla}
+  \country{Iceland}}
+\email{jsmith@affiliation.org}
+
+\author{Julius P. Kumquat}
+\affiliation{%
+  \institution{The Kumquat Consortium}
+  \city{New York}
+  \country{USA}}
+\email{jpkumquat@consortium.net}
+
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+\renewcommand{\shortauthors}{Trovato et al.}
+
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
+\begin{abstract}
+  A clear and well-documented \LaTeX\ document is presented as an
+  article formatted for publication by ACM in a conference proceedings
+  or journal publication. Based on the ``acmart'' document class, this
+  article presents and explains many of the common variations, as well
+  as many of the formatting elements an author may use in the
+  preparation of the documentation of their work.
+\end{abstract}
+
+%%
+%% The code below is generated by the tool at http://dl.acm.org/ccs.cfm.
+%% Please copy and paste the code instead of the example below.
+%%
+\begin{CCSXML}
+<ccs2012>
+ <concept>
+  <concept_id>10010520.10010553.10010562</concept_id>
+  <concept_desc>Computer systems organization~Embedded systems</concept_desc>
+  <concept_significance>500</concept_significance>
+ </concept>
+ <concept>
+  <concept_id>10010520.10010575.10010755</concept_id>
+  <concept_desc>Computer systems organization~Redundancy</concept_desc>
+  <concept_significance>300</concept_significance>
+ </concept>
+ <concept>
+  <concept_id>10010520.10010553.10010554</concept_id>
+  <concept_desc>Computer systems organization~Robotics</concept_desc>
+  <concept_significance>100</concept_significance>
+ </concept>
+ <concept>
+  <concept_id>10003033.10003083.10003095</concept_id>
+  <concept_desc>Networks~Network reliability</concept_desc>
+  <concept_significance>100</concept_significance>
+ </concept>
+</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Computer systems organization~Embedded systems}
+\ccsdesc[300]{Computer systems organization~Redundancy}
+\ccsdesc{Computer systems organization~Robotics}
+\ccsdesc[100]{Networks~Network reliability}
+
+%%
+%% Keywords. The author(s) should pick words that accurately describe
+%% the work being presented. Separate the keywords with commas.
+\keywords{datasets, neural networks, gaze detection, text tagging}
+%% A "teaser" image appears between the author and affiliation
+%% information and the body of the document, and typically spans the
+%% page.
+
+%%
+%% This command processes the author and affiliation and title
+%% information and builds the first part of the formatted document.
+\maketitle
+
+\section{Introduction}
+
+As DRAM performance has reached its limits, several new non-volatile memory (NVM) concepts have been proposed in recent years and significant progress has been made. The existing computer system structure puts forward higher requirements for memory systems, such as ultra-low power consumption computing, high density and low cost data storage. Emerging NVMS with high performance, good scalability, and new capabilities may become important technical support factors to meet these requirements. In this context, the emerging class of non-volatile memory (NVM) promises to revolutionize the memory hierarchy.
+
+Recently, many applications have been improved to run on non-volatile memory. In this context, the improvement of general software for non-volatile memory is particularly important, after all, all software is based on general software. Hence the allocator for nonvolatile memory. The dynamic allocation of persistent memory is used to build high-performance applications, from index structures, to transactional memory, to in-memory database systems. Memory allocators are generally well tuned for volatile memory (for example, DRAM) to achieve low latency, high scalability, and low fragmentation. Allocators designed for persistent memory need to maintain the distinctive characteristics of DRAM allocators for high-performance memory management. More importantly, they should make better use of the features of non-volatile memory so that they run well when running on non-volatile memory.
+
+In addition to the above advantages, non-volatile storage also has the disadvantage of inconsistent read/write speed and limited write times. Since nonvolatile memory has two sides, the advantages should be used to cover the disadvantages when designing its general software. Many allocators [] are designed for persistent memory, and they need to manage the persistent heap through various types of metadata and their allocation algorithms to represent the unique design of non-volatile memory and efficiently serve memory allocation and release. In addition to the normal allocator requirements, non-volatile allocators usually need to meet the requirements of crash consistency, high performance, and reliability.
+
+The ``\verb|acmart|'' 
+
+\section{BACKGROUND}
+The universal memory allocator has long been a fundamental building block of software, and the need for dynamic memory management is also essential in non-volatile memory. In order to use NVM effectively, it must integrate effectively with the existing system architecture, requiring changes at the operating system and application level. However, due to the change of operating medium, this brings many differences and challenges to the design of general purpose software.
+
+\subsection{Terminology}
+
+% TODO: \usepackage{graphicx} required
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{"figure 1"}
+	\caption{Storage chain in X86}
+	\label{fig:figure 1 Storage chain in X86}
+\end{figure}
+
+\emph{Data consistency}. NVM is managed using an NVM-enabled file system that grants the application layer direct access to the NVM through memory mapping, which enables the CPU to directly use load and store statements for data access. The path from the NVM to the CPU registers is long and mostly volatile. As shown in Figure 1, it includes storage buffers, CPU caches, and memory controller buffers, all of which the software has little control over. In addition, modern cpus implement complex out-of-order execution and partial storage sort (Intel x86) or loose memory sort (IBM PowerPC). Therefore, memory stores need to be explicitly sorted and persisted to ensure consistency. Current x86 cpus provide CLFLUSH, MFENCE, SFENCE, CLFLUSHOPT, CLWB, and non-temporary storage instructions to enforce memory sorting and data persistence. CLFLUSH synchronization ejects cached lines and writes them back to memory. Therefore, the data needs to be aligned with the cache line boundaries to avoid accidental ejection of incorrectly shared data. SFENCE is a memory barrier that serializes all pending storage, while MFENCE serializes pending load and storage. Non-temporary storage bypasses the cache by writing to a special buffer that will be ejected when the buffer is full or when SFENCE is issued. CLFLUSHOPT is an asynchronous version of CLFLUSH that requires serializing the MFENCE. Finally, CLWB writes the cache row back to memory without evicting it, which is useful when the data is accessed shortly after persistence.
+
+\emph{Data security and recovery}. Many existing NVM system software uses a transaction logging mechanism to keep fault atoms updated. When an application uses an allocator, the allocation and release requests need to be handled in a special way, and the allocation and release of the object itself must be delayed until the object is confirmed to be error-free in execution. At the same time, the allocator needs to handle partial writes during power outages and memory leaks under different conditions. This includes the need to secure data throughout the allocator's operation. When the program restarts, it loses the previous address space, thus invalidating any stored virtual Pointers. Therefore, you need to design ways to discover and recover the data stored in the NVM.
+
+
+\subsection{Differences and Challenges}
+
+Memory is a key component of computer systems, and their capabilities and integration with systems have evolved greatly over time. In fact, a whole set of devices and technologies have been developed. The integration of nonvolatile memory with traditional storage architectures is also an issue worth considering, from an architectural perspective, the insertion of a given NVM technology anywhere in the memory hierarchy based solely on its characteristics in terms of technical process, bandwidth, and durability. From a volume perspective, integration will depend on a number of cost considerations. In general, the higher the performance and cost of a given memory technology, the closer the integrated CPU.
+
+At present, there are two main approaches to NVM integration, one is as external memory, which becomes the upper level of SSD storage and the next level of DRAM storage. This integration takes advantage of the NVM access speed and provides caching for the next level of SSDS. Second, for upper-level DRAM, there is no need to modify too much system software. Because NVM is very similar to SSD, they are both non-volatile and only need to make some minor changes to the existing software based on the access characteristics of NVM. Another way of integration is to use memory as a storage medium with the same structure as DRAM. This integration mode can make more effective use of the performance advantage of NVM, the data access form of NVM is the same as DRAM, the CPU can directly access it through the data bus. This article discusses the differences and challenges of allocator design in the latter integrated approach.
+
+First of all, the most notable feature of NVM and DRAM is its non-volatility, and for this feature, the allocator needs to meet the crash consistency. Failure to update the allocator metadata may result in inconsistent metadata. We classify this inconsistency as an inconsistency within the allocator. Such internal inconsistencies often have disastrous consequences, such as failure to reboot properly, misallocating memory objects currently in use, or leaking large chunks of memory. Failure inconsistencies may also occur on the allocator, which are external inconsistencies. When an application allocates memory through malloc, a failure occurs when the address is returned to the application after the data within the allocator has been persisted. This causes the allocator to think it has allocated memory but not use it, essentially causing a memory leak.
+
+Second, because the NVM preserves the data storage nature in any case, the allocator's memory efficiency becomes even more important. For NVM, each memory leak or memory fragment will not disappear with a shutdown or unexpected failure, but will remain in the memory used by the allocator. To make the allocator work well on non-volatile memory, we need to design its allocation mechanism and defragmentation algorithm more carefully, reducing the overhead of memory leaks and memory fragmentation. In addition, the design needs to be modified for memory inefficiencies in the old allocator, such as memory operations that want to be shut down to eliminate the impact, which the existing design needs to do away with and provide a more efficient solution.
+
+However, for NVM, the difference in write times compared to DRAM also leads to a large divergence in its allocation strategy. Since the number of writes available to NVM is small, we must make the number of writes to memory as even as possible. Within the allocator, due to the nature of metadata access, data within the stack and heap is accessed multiple times, resulting in an extreme imbalance in write volume. In addition to the writing of internal metadata, the writing of common data also presents a big difference due to the cold and hot data. If allowed to write, the lifetime of the NVM will be greatly reduced. Therefore, the equalization of write volume is also a factor to be considered in the allocator design.
+
+Finally, there is the issue of recoverability of the allocator data. In the case of NVM, the allocator is guaranteed to recover quickly because the data is not lost due to a power outage. This involves how to design the allocator's internal data structures and recreate their previous state after a crash by establishing a recovery mechanism.
+
+\section{NVM Allocator Design}
+
+The design of the allocator can be divided into three types: 1) Focus on crash consistency and data consistency optimization(Makalu[], nvm\_malloc[]). 2) Focus on optimizing performance by leveraging NVM features(NValloc[], PAlloc[]). 3) Focus on the write imbalance caused by the optimization of NVM write times(UWLalloc[], WAFA[]). Next, we'll look at the design principles of the NVM allocator in order of three.
+
+\subsection{Makalu and Nvm\_malloc}
+
+Makalu, a system that addresses non-volatile memory management. Makalu provides an integrated allocator and recovery time garbage collector that maintains internal consistency, avoids NVRAM memory leaks, and is highly efficient in the event of a failure. By relying on offline garbage collection during failover, the persistence overhead per allocation is greatly reduced. A typical small-object persistence allocation does not require any data to be flushed to persistent memory because all relevant metadata can be effectively reconstructed from the object graph during recovery.
+
+Makalu uses an integrated allocation release mechanism and garbage collection, based on the Boehm Demers Weiser garbage Collector (bdwgc). Makalu and bdwgc differ in several key ways. In addition to the transitions needed for the allocator to become fail-safe and run correctly during a restart, there are some major differences between Makalu and bdwgc in their allocation and release strategies. Because bdwgc is designed for online automatic memory management, it has poor support for explicit release. Since we only support GC offline, explicit online release is very important in Makalu. Although the bdwgc supports thread-local allocation, it does not support thread-local release. Makalu has chosen to use persistent metadata. To reduce the cost of persistent metadata updates, Makalu maintains a list of free objects in temporary memory during the online phase. Allocating and de-allocating simply remove and add the corresponding memory objects from the temporary free list, respectively. Failure may cause a temporary loss of unfinished memory objects in the Makalu short free list. Makalu uses offline garbage collection to reclaim these objects and fixes all other external inconsistencies caused by failures based on the accessibility of memory objects in the persistent heap. As a positive side effect, it also reclaims persistent memory that has leaked due to programming errors. Makalu is given its public interface. To achieve transaction-based integration, Makalu provides an interface for delaying release requests until the person in use can confirm that the released object is indeed inaccessible.
+% TODO: \usepackage{graphicx} required
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{"figure 2"}
+	\caption{Operating mode}
+	\label{fig:figure 2}
+\end{figure}
+
+nvm\_malloc, which is a generic memory allocator concept used in the NVRAM era as a basic building block for persistent applications. It introduces the concept of managed named allocations to simplify recovery, and uses a combination of volatile and non-volatile memory to provide high performance and fail-atom allocations. nvm\_malloc is a fast, flexible, and secure general-purpose memory allocator on NVRAM that takes advantage of the expected coexistence of volatile and non-volatile memory in the unified virtual address space to achieve atomicity and performance of operations. The allocator is the central point of recovery and integrates file system-like naming concepts for allocations, thereby reducing the burden on applications to implement their own concepts. nvm\_malloc is used in parallel with the volatile allocators, both of which run on the same virtual address space, as shown in Figure 2. nvm\_malloc links other data structures through the root object, and the application just needs to make sure that the root object is accessible through ids and the rest of the objects are accessible through Pointers. The overall design of VMM-Malloc is based on the popular jemalloc allocator, which we chose for its excellent scalability and overall performance. A series of virtual addresses are "reserved" during the initialization phase of nvm malloc using mmap and anonymous mapping modes. The various guard flags in the mmap call ensure that the reserved area can neither be written nor read from. By default, nvm malloc reserves a virtual address range of 10TiB for this purpose. mmap can now be safely used to map files on NVRAM to reserved scope.
+
+\subsection{NValloc and PAlloc}
+NVAlloc is designed to improve memory consumption due to repeated cache line flusher and small random access in persistent memory and static board isolation. First, NV Alloc eliminates cache row refresh by mapping contiguous blocks of data in the board to interleaving metadata entries stored in different cache rows. Second, it writes small metadata units to the persistent account log in sequential mode to remove random heap metadata access from persistent memory. Third, it supports slab deformation rather than using static slab separation, which allows slabs to be converted between size grades, resulting in significantly higher slab usage.
+
+For smaller allocations (<16 KB), NV Alloc implements arena and tcache to reduce thread contention. Each CPU core has an arena and each thread has a tcache. Each thread will be assigned to an arena with the fewest number of allocated threads. When the user frees a small block, the worker thread will first use the R tree to find its size class. It then returns to its corresponding tcache. NV Alloc uses an interleaving map of board bitmaps and an interleaving layout of tcache to avoid cache line flushing when small heap metadata access is needed. For large allocations, NVAlloc records the large allocations with WAL, puts the metadata into DRAM and backs it up in NVM for speed. WAL's layout is staggered to avoid cache row flushes.
+
+PAllocator, a fail-safe non-volatile allocator designed to emphasize high concurrency and capacity scalability. Contrary to previous work, PAllocater completely addresses the important challenge of persistent memory fragmentation by implementing an efficient defragmentation algorithm. It consists of two allocators, one for small block allocation and the other for large block allocation, where metadata is persisted in a hybrid SCM-DRAM tree. In addition, the allocator emphasizes the importance of persistent memory fragmentation and presents an efficient defragmentation algorithm. PAllocator uses multiple files instead of a single pool, making it easy to expand and shrink a persistent memory pool. PAllocator uses three different allocation strategies for small, large, and large allocation sizes, most of which are independent of each other to ensure robust performance for all allocation sizes. To defragment memory, it takes advantage of the punch function of sparse files. To provide quick recovery, PAllocator retains most of its metadata and relies on a hybrid SCM-DRAM tree to trade off performance and recovery time when necessary.
+	
+\subsection{UWLalloc and WAFA}
+
+NVM has the potential to be a new generation of memory, however, the limited write durability presents serious challenges. A number of wear equalization techniques have been proposed to alleviate this problem from different angles. In fact, there is a serious wear equalization problem in the allocator because of the large write times difference. Some allocators are optimized for this.
+
+% TODO: \usepackage{graphicx} required
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{"figure 3"}
+	\caption{structure of UWLalloc}
+	\label{fig:figure-3}
+\end{figure}
+
+
+UWLalloc is a wear equalization aware memory allocator that (1) always tends to allocate less written memory blocks on memory requests, and (2) temporarily does not allow allocation of blocks that exceed a threshold. In addition, the allocator provides a unified management scheme for stack and heap areas for the first time, enabling better balancing of writes in the stack and heap areas. Traditional dynamic memory allocators, such as the glibc allocator, pair frequently changing metadata with data to facilitate the allocation and release of memory space management, and cache newly freed small blocks of memory for priority allocation. As a result, severe memory write offsets occur when using these allocators. As shown in Figure 3, UWLalloc takes the isolated free-list approach, which maintains a set of linked lists, each of which contains free blocks of a specific size. The memory space allocated in UWLalloc is 64-byte aligned, so each memory block allocated consists of a base memory block (64 bytes), and each free list is a multiple of 64 bytes in size. A traditional allocator stores the list pointer in the header and footer of the freed block. These in-place Pointers are updated when adjacent free blocks are merged or large free blocks are split, resulting in a large number of small writes. To prevent NVM from making these frequent small writes, UWLalloc demots the list pointer to DRAM and links all the list nodes to their associated NVM memory region.
+
+% TODO: \usepackage{graphicx} required
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{"figure 4"}
+	\caption{Illustration of WAFA}
+	\label{fig:figure-4}
+\end{figure}
+
+
+WAFA is a wear equalization aware Fine grain distributor (WAFA) for NVM. WAFA divides pages into basic memory units to support fine-grained updates. WAFA rotates the page's base memory unit to distribute fine-grained updates evenly across memory cells. The fragmentation of the base memory units per page resulting from the memory allocation and release operations is reorganized through the reorganization operation. The basic structure is shown in Figure 4. In order to provide an efficient attrition allocator for fine-grained memory requests, the main idea of WAFA is to divide the page into smaller sections and alternate the units of new requests. Based on this idea, WAFA proposed the design of page metadata, optimal clock allocation strategy. Basically, WAFA divides a memory page into cells with a minimum allocation size. For smaller subpages, the minimum allocation size is the same as the size of the last level of cache row. This causes write magnification by interfering with the bits of other subpages. In this article, the size of the unit is set to 64 bytes. WAFA proposes a clockwise best fit (CBF) strategy to allocate cells for fine-grained memory requests. The main idea of CBF is twofold. First, we allocate the most suitable continuous free cell for the memory allocation request, through which the memory cell has the highest chance of being written after allocation. Second, the units are assigned in clockwise order.
+
+\section{Summary}
+
+Emerging NVMS offer a wide range of performance, maturity, and scaling potential. Emerging NVM offers to improve or replace existing storage, simplify the storage hierarchy, design new architectures, and enable new capabilities. However, there are still some obstacles to the practical use of NVM. This is due to a number of factors, one of which is the improvement of common software to make it run better on the NVM medium.
+	
+
+%%
+%% The acknowledgments section is defined using the "acks" environment
+%% (and NOT an unnumbered section). This ensures the proper
+%% identification of the section in the article metadata, and the
+%% consistent spelling of the heading.
+
+%%
+%% The next two lines define the bibliography style to be used, and
+%% the bibliography file.
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{ref}
+
+
+%%
+%% If your work has an appendix, this is the place to put it.
+\appendix
+
+\section{Research Methods}
+
+\subsection{Part One}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+malesuada, quam in pulvinar varius, metus nunc fermentum urna, id
+sollicitudin purus odio sit amet enim. Aliquam ullamcorper eu ipsum
+vel mollis. Curabitur quis dictum nisl. Phasellus vel semper risus, et
+lacinia dolor. Integer ultricies commodo sem nec semper.
+
+\subsection{Part Two}
+
+Etiam commodo feugiat nisl pulvinar pellentesque. Etiam auctor sodales
+ligula, non varius nibh pulvinar semper. Suspendisse nec lectus non
+ipsum convallis congue hendrerit vitae sapien. Donec at laoreet
+eros. Vivamus non purus placerat, scelerisque diam eu, cursus
+ante. Etiam aliquam tortor auctor efficitur mattis.
+
+\section{Online Resources}
+
+Nam id fermentum dui. Suspendisse sagittis tortor a nulla mollis, in
+pulvinar ex pretium. Sed interdum orci quis metus euismod, et sagittis
+enim maximus. Vestibulum gravida massa ut felis suscipit
+congue. Quisque mattis elit a risus ultrices commodo venenatis eget
+dui. Etiam sagittis eleifend elementum.
+
+Nam interdum magna at lectus dignissim, ac dignissim lorem
+rhoncus. Maecenas eu arcu ac neque placerat aliquam. Nunc pulvinar
+massa et mattis lacinia.
+
+\end{document}
+\endinput
+%%
+%% End of file `sample-sigconf.tex'.
